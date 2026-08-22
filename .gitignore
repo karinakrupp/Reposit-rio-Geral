@@ -1,0 +1,27 @@
+# WordPress core (não versionamos, vem do Hostinger)
+wp-admin/
+wp-includes/
+wp-*.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+
+# Config com credenciais - NUNCA versionar
+wp-config.php
+.env
+.env.*
+
+# Conteúdo gerado / não versionável
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+*.log
+*.sql
+*.zip
+
+# Sistema
+.DS_Store
+Thumbs.db
+node_modules/
